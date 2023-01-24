@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: 3.8
     
@@ -24,7 +24,7 @@ jobs:
           pytest
           python -m flake8
           cd api_yamdb/
-          python manage.py test
+          python3 manage.py test
           
   build_and_push_to_docker_hub:
     name: build a docker image and push it to docker hub
