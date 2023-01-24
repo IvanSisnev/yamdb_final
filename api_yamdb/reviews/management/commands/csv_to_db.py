@@ -8,8 +8,7 @@ from django.conf import settings
 from django.core.management.base import BaseCommand
 from django.db.utils import IntegrityError
 from django.shortcuts import get_object_or_404
-from reviews.models import (Category, Genre, Title, GenreTitle, Review,
-                            Comment)
+from reviews.models import Category, Comment, Genre, GenreTitle, Review, Title
 from users.models import User
 
 
