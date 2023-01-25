@@ -1,6 +1,6 @@
 ![Workflow_badge](https://github.com/IvanSisnev/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 
-## **api_yamdb**
+## **yamdb_final**
 
 ### **Краткое описание проекта**
 ___
