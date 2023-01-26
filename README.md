@@ -43,6 +43,6 @@ ___
 
     docker-compose exec web python manage.py collectstatic --no-input
 
-### **Статус бэйдж workflow проекта**
+### ** Бэйдж workflow проекта**
 
 ![Workflow_badge](https://github.com/IvanSisnev/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
